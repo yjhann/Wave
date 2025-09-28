@@ -1,0 +1,72 @@
+{
+  "scene_description": "A daylight plaza with a large cathedral, palm trees, metal barricades and a crowd behind them while a uniformed officer stands near the foreground.",
+  "mood_description": "Bustling, tension, anticipation",
+  "sound_sources": [
+    {
+      "name": "cathedral bell tower",
+      "material": "stone structure with metal bells",
+      "variants": [
+        {
+          "play_method": "hourly bell chime",
+          "timbre": ["bright", "resonant"],
+          "mapping_to_music_instrument": "keyboard"
+        }
+      ]
+    },
+    {
+      "name": "palm trees",
+      "material": "leafy fronds and fibrous trunks",
+      "variants": [
+        {
+          "play_method": "breeze rustling fronds",
+          "timbre": ["airy", "soft", "shimmering"],
+          "mapping_to_music_instrument": "drums"
+        }
+      ]
+    },
+    {
+      "name": "metal barricades",
+      "material": "steel tubing and joints",
+      "variants": [
+        {
+          "play_method": "light rattle as they are adjusted",
+          "timbre": ["metallic", "clanky"],
+          "mapping_to_music_instrument": "drums"
+        }
+      ]
+    },
+    {
+      "name": "stroller",
+      "material": "metal frame with plastic wheels and rubber treads",
+      "variants": [
+        {
+          "play_method": "wheels rolling over stone pavement",
+          "timbre": ["rhythmic", "low rumble", "soft squeak"],
+          "mapping_to_music_instrument": "bass"
+        }
+      ]
+    },
+    {
+      "name": "plastic shopping bag",
+      "material": "thin polyethylene",
+      "variants": [
+        {
+          "play_method": "bag crinkling as it shifts",
+          "timbre": ["crinkly", "papery", "high-frequency"],
+          "mapping_to_music_instrument": "drums"
+        }
+      ]
+    },
+    {
+      "name": "smartphone",
+      "material": "glass and metal handset",
+      "variants": [
+        {
+          "play_method": "vibration alert",
+          "timbre": ["buzzing", "steady", "low-mid"],
+          "mapping_to_music_instrument": "bass"
+        }
+      ]
+    }
+  ]
+}

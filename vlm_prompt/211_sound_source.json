@@ -1,0 +1,66 @@
+{
+  "scene_description": "A shaded blue-toned veranda with potted plants, wooden shutters, a hanging paper lantern, and tiled steps in soft daylight.",
+  "mood_description": "calm, sun-dappled, contemplative",
+  "sound_sources": [
+    {
+      "name": "paper lantern",
+      "material": "paper with frame",
+      "variants": [
+        {
+          "play_method": "gentle crinkle in the breeze",
+          "timbre": ["soft", "papery", "whispery"],
+          "mapping_to_music_instrument": "drums"
+        }
+      ]
+    },
+    {
+      "name": "potted plants",
+      "material": "leaves and stems",
+      "variants": [
+        {
+          "play_method": "leaves rustling softly",
+          "timbre": ["shimmery", "dry", "hushed"],
+          "mapping_to_music_instrument": "drums"
+        },
+        {
+          "play_method": "leaves brushing ceramic pot",
+          "timbre": ["light taps", "delicate", "damped"],
+          "mapping_to_music_instrument": "drums"
+        }
+      ]
+    },
+    {
+      "name": "wooden shutters",
+      "material": "painted wood with hinges",
+      "variants": [
+        {
+          "play_method": "occasional hinge creak from breeze",
+          "timbre": ["creaky", "slow", "midrange"],
+          "mapping_to_music_instrument": null
+        }
+      ]
+    },
+    {
+      "name": "veranda structure",
+      "material": "wooden beams and floor",
+      "variants": [
+        {
+          "play_method": "subtle wood settling creak",
+          "timbre": ["dry", "short", "quiet"],
+          "mapping_to_music_instrument": null
+        }
+      ]
+    },
+    {
+      "name": "tiled steps",
+      "material": "stone or ceramic tiles",
+      "variants": [
+        {
+          "play_method": "breeze moving small debris across tile",
+          "timbre": ["faint", "gritty", "skittering"],
+          "mapping_to_music_instrument": "drums"
+        }
+      ]
+    }
+  ]
+}
