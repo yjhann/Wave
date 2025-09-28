@@ -1,0 +1,19 @@
+git+https://github.com/huggingface/diffusers.git
+--extra-index-url https://download.pytorch.org/whl/cu113
+torch==2.1.2 
+huggingface_hub
+transformers==4.36.2 
+pillow>=9.0.0
+huggingface_hub>=0.15.0
+qwen-vl-utils>=0.0.10
+accelerate==0.25.0 
+bitsandbytes==0.41.2
+diffusers>=0.21.0
+scipy>=1.9.0
+numpy>=1.21.0
+librosa 
+pandas 
+einops 
+transformers_stream_generator
+tiktoken 
+matplotlib
